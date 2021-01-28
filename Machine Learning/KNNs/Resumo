@@ -1,0 +1,21 @@
+K Nearest Neighbors (KNN)
+Seção 4.6
+
+K vizinhos mais proximos
+	Método de classificação simples.
+	
+
+Algoritmo de treino
+	1. Guarde os dados
+
+Algoritmo de teste/preditor
+	1. Calcule as distâncias do x até os demais pontos
+	2. Organize os dados em ordem crescente de distância.
+	3. Classifique a classe de acordo com a maioria dos primeiros k valores.
+
+	O parametro k pode afetar a classificação. Problema quando o novo ponto está proximo da fronteira que contém as duas classes.
+	
+	Pros: simples, treino trivial, funciona bem com grande numero de classes, facil adição de mais dados, poucos parametros (k e metrica de distância)
+	Contras: Alto custo computacional para predição, ruim com dados com multiplicas dimensões e com parametros categoricos.
+
+	É importante normalizar o modelo, senão o modelo se baseará apenas nos parametros dos dados maiores e os demais parametros serão desconsiderados

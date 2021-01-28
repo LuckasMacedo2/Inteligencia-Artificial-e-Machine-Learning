@@ -1,0 +1,12 @@
+Suport Vector Machine 
+Seção 9
+
+	Métodos de machine learning de aprendizagem supervisionada analisam os dados reconhecem padrões, cria um modelo que assimila novos exemplos a uma categoria, com um classificador não probabilistico.
+	O SVM permite a classificação baseado no modelo previo que o mesmo previu.
+	Os exemplos são representados como pontos no espaço de forma que as categorias são divididas com a maior distância possivel entre elas.
+	Criação a equação de um hiperplano no espaço. Podem existir diversos hiperplanos o hiperplano escolhido é aquele que maximize a margem entre as classes. O hiperplano criado tende a ser linear.
+	Vetores de suporte são os pontos que tocam as linhas das margens. Busca maximizar a margem entre esses pontos.
+
+	kernel trick: Busca permitir o uso de SVM em dados não separaveis linearmente. O método basea-se na aplicação de uma transformação linear nos dados para levá-los a espaço dimensional para que possam ser separados, após encontrar o hiperplano, aplica-se transformações no hiperplano e dados para voltar a forma original.
+
+

@@ -1,0 +1,7 @@
+Sistema de recomendação
+	Livro: Recommender Systems Jannach e Zanker
+
+Complexo e dependente de dados
+
+	Filtragem colaborativa produz recomendações baseadas no conhecimento das atitudes em relação aos itens, baseados em outros usuários. Bons resultados e mais facil de entender.
+	Filtragem baseada em conteúdo enfoque nos atributods, as recomendações são baseadas nas similaridades dos mesmos.

@@ -1,0 +1,54 @@
+Regressões logistica 
+Livro Introduction Statical Learning - Seção 4 - 4.3
+
+	-> Método de classificação
+	Permitem resolver porblemas de classificação com tentativa de classificação de categorias discretas.
+	
+	Regressão linear: Permite valores abaixo de zero.
+	Regressão Logistica: O valor de saida sempre vai ser entre 0 e 1.
+	*** Função Sigmoide. Função de ativação***
+	É possível colocar uma regressão linear dentro de uma regressão logistica, colocando-a no expoente do 'e'. e ^ regressao.
+	
+	Com isso os valores são interpretados como a probabilidade da classe ser 0 ou 1.
+	
+	--- Metricas de avaliação ---
+	A avaliação é baseada na matriz de confusão
+
+				Valor predito	   Valor predito
+					Não		Sim
+			   ______________________________________
+	valor correto: Não |		50		10	|
+	valor correto: Sim |		5		100     |
+			   --------------------------------------
+	Terminologia:
+	* True positive  (TP) - positivo verdadeiro "A pessoa é classificada que possui a doença e possui a doença"
+	* True negative  (TN) - negativo verdadeiro "A pessoa é classificada como não possui a doença e não possui a doença"
+	* False Positive (FP) - falso positivo "A pessoa é classificada que possui a doença e não possui a doença"
+	* False negative (FN) - falso negativo "A pessoa é classificada como não possui a doença e possui a doença"
+
+	True: O modelo acerta 
+	False: O modelo erra
+
+	Cálculo da precisão
+	O modelo acerta em média: (TP + TN)/total
+	O modelo erra em média: (FP + FN)/total ou 1 - (TP + TN)/total
+	FP erro do tipo 1
+	FN erro do tipo 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

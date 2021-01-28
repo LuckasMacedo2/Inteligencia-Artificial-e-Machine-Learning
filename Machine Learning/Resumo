@@ -1,0 +1,27 @@
+Metodo de analise de dados para criação de modelos, usam algoritmos
+iterativos que aprendem com os dados encontrando padrões de forma automatica.
+
+Usos:
+ - Detecção de fraudes
+ - Sistemas de recomendações 
+ - Filtros de emails
+ - etc.
+
+Processo de machine learning
+
+Aquisição de Dados - Limpeza dos dados - Dados de teste e dados de treinamento e construção do modelo (devem ser diferentes), (aprende com os dados de treinamento) - teste do modelo - uso prático.
+
+ * Aprendizado supervisionado : Dados categorizados, já se sabe as respostas sobre o mesmo. E aprende com mesmo
+ - Conjuntos de dados que possuam parametros.
+ - Recebe entradas e saidas corretas o modelo é ajustado iterativamente buscando se adaptar ao conjunto de dados de treino, o algoritmo confere a precisão usando o cojunto de dados de teste.
+
+
+ * Aprendizado não supervisionado: Existem apenas os parametros, busca-se encontrar subgrupos que possuam algum tipo de semelhança.
+ - Não possui classificaçõa nos dados os mesmos devem ser agrupados para buscar classifica-los. Grupos, Cluster, etc.
+
+
+ * Aprendizado por reforço (robotica): Sistema interage com o meio.
+ - Robotica, Jogos e Navegação.
+ - Algoritmo aprende atraves de tentativa e erro, são apresentados estados e ações e se tomar as ações corretas recebe recompensas.
+ - Interage com o meio de forma iterativa
+ - Busca tomar as melhores decisões para conseguir as melhores recompensas.

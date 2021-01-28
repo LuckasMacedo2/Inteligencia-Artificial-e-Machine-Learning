@@ -1,0 +1,13 @@
+Ánalise do componente principal
+Seção 10.2
+
+	Método não supervisionado estatistico, busca examinar as relações em um cnjunto de variaveis, buscando identificar uma estrutura básica.
+
+	O PCA determina o melhor conjunto ortogonal (perpendicular) de linhas que se ajustam ao modelo. Espaço n-dimensional é o espaço vetorial do grupo de parâmetros.
+
+	Os componentes são transformações lineares dos parâmetros iniciais, de forma que a maior variância apareça no primeiro eixo, a segunda maior no segundo e assim por diante.
+
+	-> Transformação linear nos eixos.
+	Permite reduzir os número de variaveis usadas na análise. Encontra um modelo com menos ruído.
+
+	Método de análise.

@@ -1,0 +1,18 @@
+K Means Clustering
+Seção 10
+
+	Baseado em aprendizado não supervisionado, os dados são agrupados em grupos que possuem alguma caracteristica similar. Os dados não possuem rótulos. 
+	K significa a quantidade de grupos que seram definidos. Os grupos são divididos baseados nos parâmetros.	
+
+	Algoritmo
+	Escolher K (qtd de grupos)
+	Aleatoriamente definir uma classe para todos os pontos.
+	Até os clusters pararem de mudar, faz-se:
+		* Para cada cluster, obter a centroide do mesmo, calculando a média dos vetores dos pontos do cluster.
+		* Definir cada ponto ao cluster na qual a centroide é mais proxima.
+
+	O valor correto de K, pode ser escolhido a partir do método do cotovelo. Onde:
+	* Calcula-se a soma dos erros quadrados (SEQ) para alguns valores de k qualquer.
+	* Plotar K vs SEQ, escolher então o valor de K no qual o SEQ caia.
+	Valor de K efetivo, que o erro é o menor possivel.	
+

@@ -1,0 +1,39 @@
+Livro Introduction Statical Learning - Capitulos 2 e 3
+
+Regressões lineares
+	Permitem a criação de moedelos que contenham relações lineares entre variaveis para predizer uma outra variavel.
+	
+	Tentativa de criar uma curva que é mais proxima de todos os pontos.
+	Objetivo minimizar a distância vertical entre a linha e todos os pontos do conjunto de dados.
+
+
+Balanço viés-variância
+
+	Topico fundamental para entendimento do performance do modelo
+	Leva em conta a complexidade do modelo e quanto de erro o mesmo é capaz de gerar no grupo de dados de teste e de treino.
+	
+	Determina o ponto em que se está adicionando mais ruído a medida que adiciona-se complexidade a ele.
+	Overfitting: O erro nos dados de treino começa a cair a medida em que o erro nos dados de teste aumenta.
+
+	"Quanto mais viés mais distantes estão os pontos do seu alvo."
+	Variância: Mede a amplitude dos erros do modelo
+Existe o ganho de variância, quanto mais diferente de si forem as tentativas.
+	Baixa variância e baixo viés o melhor.
+	
+	Um modelo muito complexo, pode não se adaptar bem a novos conjuntos de dados, visto que o mesmo foi modelado para aquele conjunto especifico de dados. O modelo então não consegue captar o comportamento geral do conjunto de dados, apenas consegue se adequar ao grupo de treino, com isso ao apresentar novos dados ao modelo o erro tende a aumentar.
+
+ ****
+	Um spline é muito perfeito para os dados de teste, com isso ao adicionar novos dados o erro pode ser muito grande.
+							****
+
+	Um modelo simples, pode não captar todas as caracteristicas dos dados e apresentar muitos erros.
+	
+	Existe um ponto perfeito que balançei o viés e a variância
+
+
+
+
+
+
+
+

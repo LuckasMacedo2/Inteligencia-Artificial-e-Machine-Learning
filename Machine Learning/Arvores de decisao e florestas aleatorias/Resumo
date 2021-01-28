@@ -1,0 +1,28 @@
+Árvores de decisão
+seção 8
+
+	Que divisão nas variaveis prediz a variavel alvo 
+
+Nós: Pontos dee divisão
+Ramos: saída dos nós
+Raiz: Nó que faz a primeora divisão.
+Folha: Nó final que toma a decisão.
+
+	O algoritmo faz a divisão sempre na classe que apresentar o maior ganho de informação.
+
+	Suscetiveis a overfitting
+
+	A separação se dá a partir de linhas, "quadrados".
+	Não são muito boas, devido ao overfitting.
+
+
+Florestas aleatorias
+	Multiplas arvores de decisão
+	Dividir os dados de treino aleatoriamente e crescer várias arvores aleatorias diferentes.
+	Todas elas predizem algo, então tira-se a média da precisão e retorna um valor.
+	
+	Para que todas as arvores escolham parametros raizes distintos é utilizado um algoritmo que escolhe um parametro dentre todo o conjunto de parametros.
+	Evitando assim que as árvores geradas fiquem muito correlacionadas.
+
+
+# -> Instalar: Pydot e graphviz, para visualizar as arvores

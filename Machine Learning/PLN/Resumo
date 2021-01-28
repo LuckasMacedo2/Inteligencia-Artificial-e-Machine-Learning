@@ -1,0 +1,18 @@
+Processamento de linguagem natural
+
+	Compilar os documentos
+	Categorizar 
+		Cria parâmetros
+		Pode ser categorizado contando quantas vezes a palavra aparece no documento. Saco de palavras (bag of words). Aqui utiliza-se similaridade de cossenos para comparar os vetores.
+
+
+	Comparar os parâmetros
+
+	Term frequency: Importância do termo no documento. 
+		TF(d, t) - número de ocorrências do termo t no documento d
+	Inverse document frequencia: Impotância do termo no conjunto de documentos.
+		IDF(t) = log(D/t)
+			D = número de documentos
+			t = número de documentos com o termo
+
+	TF-IDF = TF x IDF
