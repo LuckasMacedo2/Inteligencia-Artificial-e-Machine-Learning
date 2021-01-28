@@ -1,0 +1,1 @@
+{"nome": "Lucas Macedo", "linguagem": "portugues", "similar": ["Espanhol", "Ingles", "Latim"], "usuarios": 9000}
